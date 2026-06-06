@@ -1,0 +1,35 @@
+# Water Retention Curve Fitting Tool
+
+Version 1.0
+
+Developed by:
+
+Hadi Hamaaziz Muhammed and Prof.Dr. Rüdiger Anlauf
+
+Osnabrück University of Applied Sciences, Germany
+
+## Description
+
+The Water Retention Curve Fitting Tool is a free software package developed for fitting soil water retention curves of both mineral soils and horticultural growing media (substrates).
+
+The software is based on a modified van Genuchten water retention model and allows users to estimate the hydraulic parameters describing the relationship between pressure head and volumetric water content.
+
+## Modified van Genuchten Model
+
+Experimental observations have shown that, particularly for horticultural substrates and some organic growing media, the residual water content does not always approach zero. Instead, water contents often stabilize at values around 0.05–0.10 cm³ cm⁻³ even under very high suction.
+
+To improve fitting performance under these conditions, an additional empirical parameter (k) has been incorporated into the model.
+
+The parameter k does not represent a physical hydraulic property. Rather, it serves as a numerical tuning parameter that increases the flexibility of the fitting procedure and improves the representation of water retention behavior in growing media and organic substrates.
+
+For mineral soils, the standard van Genuchten model may often provide adequate results, whereas the modified formulation may provide improved fits for horticultural substrates.
+
+## Main Features
+
+* Import experimental water retention data
+* Fit the modified van Genuchten model
+* Estimate hydraulic parameters
+* Interactive graphical interface
+* Publication-quality figure export (600 DPI)
+* Support for mineral soils and horticultural substrates
+* Free for research and educational use
